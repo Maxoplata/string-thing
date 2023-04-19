@@ -1,0 +1,23 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "ban-ts-ignore": true,
+        "no-any": true,
+        "no-empty-interface": true,
+        "curly": true,
+        "no-console": true,
+        "no-duplicate-variable": true,
+        "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+        "semicolon": [true, "always"],
+        "no-trailing-whitespace": true,
+        "no-irregular-whitespace": true,
+        "no-consecutive-blank-lines": true,
+        "indent": [true, "tabs", 4],
+        "import-spacing": true
+    },
+    "rulesDirectory": []
+}
