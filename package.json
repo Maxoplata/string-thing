@@ -1,7 +1,7 @@
 {
   "name": "string-thing",
   "version": "1.0.0",
-  "description": "String Thing",
+  "description": "A lightweight library for encoding and decoding strings using various patterns.",
   "author": "Maxamilian Demian",
   "funding": {
     "type": "individual",
