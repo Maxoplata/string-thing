@@ -40,7 +40,7 @@ const opFunctionMap: {
 	'split-halves': (text: string, decode = false) => `${text.slice(decode ? Math.floor(text.length / 2) : Math.ceil(text.length / 2))}${text.slice(0, decode ? Math.floor(text.length / 2) : Math.ceil(text.length / 2))}`,
 	reverse: (text: string, _) => text.split('').reverse().join(''),
 	shift: (text: string, decode = false) => shiftString(text, !decode ? 1 : -1),
-	'swap-case': (text: string, decode = false) => text.split('').map((c) => c === c.toUpperCase() ? c.toLowerCase() : c.toUpperCase()).join(''),
+	'swap-case': (text: string, _) => text.split('').map((c) => c === c.toUpperCase() ? c.toLowerCase() : c.toUpperCase()).join(''),
 	rotate: (text: string, decode = false) => decode ? `${text.slice(1)}${text.slice(0, 1)}` : `${text.slice(-1)}${text.slice(0, -1)}`,
 };
 
